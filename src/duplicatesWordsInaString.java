@@ -2,7 +2,7 @@
 public class duplicatesWordsInaString {
 
 	public static void main(String[] args) {
-		  String s="Selenium test automation test engineer test qa test functional test ";
+		  String s="Selenium test automation test engineer test qa test functional test";
 		  
 		  String w[]=s.trim().split(" ");
 		  
