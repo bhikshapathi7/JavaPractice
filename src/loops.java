@@ -1,3 +1,5 @@
+import java.util.LinkedHashSet;
+import java.util.Set;
 
 public class loops {
 
@@ -34,9 +36,9 @@ public class loops {
 		
 		for(int l: c)
 		{
-			 sum=sum+l;
-			 System.out.println(sum);
+			 sum=sum+l;			 
 		}
+		System.out.println(sum);
 		String[] s= {"vk","Jr","Kw","ss"};
 		
 		for(String d:s)
@@ -85,7 +87,6 @@ public class loops {
 			 q++;
 			 System.out.println("-----------");
 		 }
-		 
 		 int d,e;
 		 
 		 for(d=1,e=-10;d<=10;d++,e++)
@@ -99,8 +100,28 @@ public class loops {
 					System.out.println(d+"\t"+e);
 				}
 			}
-		}
+		 
+		 /*for(int t=100;t>=1;t-=5)
+			{
+				System.out.print(t +" ");
+			}*/
+		 
+		String s2="mississippi";
+		char chars[]=s2.toCharArray();
+		 
+		 Set<Character> charSet = new LinkedHashSet<Character>();
+		 for(char cc:chars)
+		 {
+			 charSet.add(cc);
+		 }
+		 
+			/*
+			 * for(int t=0;t<chars.length;t++) { charSet.add(chars[t]); }
+			 */
+		 System.out.print(charSet);
+		 
+		 
 	
-	
+	}
 
 }

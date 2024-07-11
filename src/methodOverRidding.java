@@ -8,9 +8,8 @@ public class methodOverRidding extends bank{
         double cinterest = amount - p;
         System.out.println("Compound Interest after " + t + " years: "+cinterest);
         System.out.println("Amount after " + t + " years: "+amount);
-        super.calculateIntrest();
+        super.calculateIntrest(850000, 12, 15.20);
 		return cinterest;
-		
 	}
 	public static void main(String[] args) {
 

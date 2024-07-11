@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.LinkedHashSet;
 
 public class removeduplicatStrings {
@@ -9,12 +10,14 @@ public class removeduplicatStrings {
 		    
 		  //1. LinkedHashSet is data type it is not allowed duplicates but allowed null
 		  LinkedHashSet<String> a= new LinkedHashSet<String>(listStrings);
+		  System.out.println(a);
 		  ArrayList<String> duplicatesStr=new ArrayList<String>(a);
 		  System.out.println(duplicatesStr);
-		  duplicatesStr.sort(String.CASE_INSENSITIVE_ORDER);
-		  System.out.println(duplicatesStr);
 		  
-
+		  
+		 Collections.sort(duplicatesStr);
+		  //duplicatesStr.sort(String.CASE_INSENSITIVE_ORDER);
+		  System.out.println(duplicatesStr);
 	}
 
 }

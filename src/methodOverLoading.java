@@ -11,7 +11,6 @@ class overload{
 		return d;
 	}
 }
-
 public class methodOverLoading {
 
 	public static void main(String[] args) {

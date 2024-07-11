@@ -10,17 +10,16 @@ public class typeCasting {
 		//String to Integer
 		String d="4455";
 		int j=Integer.parseInt(d);
-		System.out.println(d);
-		
+		System.out.println(j);
 		//String to char
 		
 		String name="bhikshapathi";
 		
 		char[] c=name.toCharArray();
 		
-		for(int c1=0;c1<c.length;c1++) 
+		for(int c1=c.length-1;c1>=0;c1--) 
 		{
-			System.out.println(c[c1]);
+			System.out.print(c[c1]);
 		}
 		//float to String 
 		float f=6.5f;

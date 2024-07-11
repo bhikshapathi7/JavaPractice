@@ -3,22 +3,22 @@ import java.util.HashMap;
 public class FreaquencyOfCharacter {
 	 private static void characterCount(String inputString)
 	    {
-	        HashMap<Character, Integer> charCountMap = new HashMap<Character, Integer>();
+	        HashMap<Character, Integer> hm = new HashMap<Character, Integer>();
 	  
-	        char[] strArray = inputString.toCharArray();
+	        char[] ch = inputString.toCharArray();
 	  
-	        for (char c : strArray)
+	        for (char c : ch)
 	        {
-	            if(charCountMap.containsKey(c))
+	            if(hm.containsKey(c))
 	            {
-	                charCountMap.put(c, charCountMap.get(c)+1);
+	                hm.put(c, hm.get(c)+1);
 	            }
 	            else
 	            {
-	                charCountMap.put(c, 1);
+	                hm.put(c, 1);
 	            }
 	        }
-	        System.out.println(inputString+" : "+charCountMap);
+	        System.out.println(inputString+" : "+hm);
 	    }
 	    public static void main(String[] args)
 	    {
@@ -27,5 +27,7 @@ public class FreaquencyOfCharacter {
 	       characterCount("All Is Well");
 	  
 	       characterCount("Done And Gone");
+	              
 	    }
+	 
 }

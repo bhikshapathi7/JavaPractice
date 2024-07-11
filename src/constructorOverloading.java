@@ -1,12 +1,11 @@
-
-public class constructorOverloading {
-	 int id;
-	 String name;
-	constructorOverloading()
+final class constructorOverloading {
+    private  int id;
+    private  String name;
+	private constructorOverloading()
 	{
 		System.out.println("This is the default constructor");
 	}
-	constructorOverloading(int i, String s)
+	protected constructorOverloading(int i, String s)
 	{
 		id=i;
 		name=s;

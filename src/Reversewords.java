@@ -31,14 +31,11 @@ public class Reversewords {
 		{
 			System.out.print(sa[i]);
 		}
-		
 		ArrayList<String> list= new ArrayList<String>();
 		list.add("bhik");
 		list.add("arun");
 		list.add("uday");
 		list.add("srinu");
-		
-		System.out.print("Created List is:"+list);
 		
 		for(int i=0;i<list.size();i++) {
 			System.out.print(list.get(i).charAt(3));
@@ -49,6 +46,11 @@ public class Reversewords {
 		    	System.out.print(list1[i]+",");
 		    }
 
+		 StringBuffer sb=new StringBuffer(s1);
+		 sb.reverse();
+		String reversedstring=sb.toString();
+		int finalInteger=Integer.parseInt(reversedstring);
+		System.out.println(finalInteger);
 	}
 
 }

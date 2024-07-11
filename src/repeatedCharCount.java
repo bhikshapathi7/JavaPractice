@@ -3,8 +3,7 @@ public class repeatedCharCount {
 
 	public static void main(String[] args) {
 		String str="Java J2EE JSon JAVa ja va vaja jjjj zz bhikshapathi";
-		String str1=str.toLowerCase();
-        char[] charArr=str1.toCharArray();
+        char[] charArr=str.toCharArray();
 		int count=0;
 		for(char i='a';i<='z';i++)
 		{
@@ -12,7 +11,7 @@ public class repeatedCharCount {
 			{
 				if(c==i)
 				{
-					count=count+1;
+				count=count+1;
 				}
 			}
 			if(count>0)
@@ -22,6 +21,5 @@ public class repeatedCharCount {
 			}
 		}
 		}
-
 	}
 
