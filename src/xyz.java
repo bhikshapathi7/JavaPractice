@@ -36,15 +36,6 @@ public class xyz {
 		 * Sb.append(c[i]); } } String res = Sb.toString();
 		 * System.out.println("The final output is " + res);
 		 */
-		/*
-		 * String S1="Bhikshapathi"; String S2="Kavya";
-		 * System.out.println("Before Swaping "+ S1+" "+S2);
-		 * 
-		 * S1=S1+S2; S2=S1.substring(0, S1.length()-S2.length());
-		 * S1=S1.substring(S2.length()); System.out.println("After Swaping "+
-		 * S1+" "+S2);
-		 */
-
 		// Bubble sort
 		/*
 		 * int a[]= {25,65,12,7,895,74,2,35,1}; int swap;
@@ -66,17 +57,11 @@ public class xyz {
 		 */
 
 		// System.out.println();
-
-		/*
-		 * SimpleDateFormat dt=new SimpleDateFormat("MM-dd-yy hh:mm:ss"); Date d=new
-		 * Date(); System.out.println(d); System.out.println(dt.format(d));
-		 * 
-		 * Random rnd=new Random(); int n=rnd.nextInt(1000); String
-		 * S="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"; StringBuffer Sb=new
-		 * StringBuffer(); for(int i=0;i<=7;i++) { int index=rnd.nextInt(S.length());
-		 * char c=S.charAt(index); Sb.append(c); } String rndStr=Sb.toString();
-		 * System.out.println(rndStr+n);
-		 */
+		
+		  SimpleDateFormat dt=new SimpleDateFormat("MM-dd-yy hh:mm:ss");
+		  Date d=new Date();
+		 System.out.println(d); System.out.println(dt.format(d));
+		
 
 		String S = "Java CoreJava PYTHON python JAVASCRIPT";
 		HashMap<Character, Integer> hm = new HashMap<Character, Integer>();
