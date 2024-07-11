@@ -28,17 +28,17 @@ public class StringBuffer_Builder {
 		{
 			System.out.println("The given string is not Polindrome");
 		}
-		
+
 		String[] y="bhik kav both are one".split(" ");
-		
+
 		for(int v=y.length-1;v>=0;v--)
 		{
 			StringBuffer bb=new StringBuffer(y[v]);
 			String sd=bb.reverse().toString();
 			System.out.print(sd +" ");
 		}
-		
-		
-		
+
+
+
 	}
 }

@@ -1,6 +1,6 @@
 final class constructorOverloading {
-    private  int id;
-    private  String name;
+	private  int id;
+	private  String name;
 	private constructorOverloading()
 	{
 		System.out.println("This is the default constructor");
@@ -9,7 +9,7 @@ final class constructorOverloading {
 	{
 		id=i;
 		name=s;
-		
+
 	}
 
 	public static void main(String[] args) {

@@ -1,10 +1,10 @@
 
 public class LowerToUpperViceverca {
-	
+
 	static void convert()
 	{
 		String S="perSIStEnT SySTeMS";
-		
+
 		char[] ch=S.toCharArray();
 		for(int j=0;j<ch.length;j++)
 		{
@@ -17,7 +17,7 @@ public class LowerToUpperViceverca {
 				System.out.print(Character.toLowerCase(ch[j]));
 			}
 		}
-				
+
 		/*
 		 * for(int i=0;i<sb.length();i++) { Character c=sb.charAt(i);
 		 * 
@@ -30,7 +30,7 @@ public class LowerToUpperViceverca {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+
 		StringBuffer sb=new StringBuffer("bhIkShaPathI");
 		convert();
 

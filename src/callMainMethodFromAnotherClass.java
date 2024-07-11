@@ -1,5 +1,5 @@
 
- class m1 {
+class m1 {
 
 	public static void main(String[] args) {
 
@@ -11,15 +11,15 @@
 
 }
 
- class m2 {
+class m2 {
 
 	public static void main(String[] args) {
 
 		String[] names= {"bk","kav","Bhikshapathi","kavya"};
 		m1.main(names);
-		
-		
+
+
 	}
-	
+
 
 }
